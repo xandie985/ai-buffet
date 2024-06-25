@@ -2,7 +2,7 @@
 
 This project explores the advanced capabilities of Large Language Models (LLMs) within Retrieval Augmented Generation (RAG) pipelines, focusing on agent-based reasoning and tool utilization.
 
-### 1. Beyond Basic RAG: Router Query Engine
+### 1. [Beyond Basic RAG](https://github.com/xandie985/ai-buffet/blob/main/LLM%20Notebooks/Agentic%20RAG%20LLamaIndex/1.%20NextLevel%20Agent.ipynb): Router Query Engine
 
 The router query engine is a fundamental building block for agentic RAG systems. It dynamically selects the most suitable query engine (e.g., question answering, summarization) based on the user's input, leading to more accurate and relevant responses.
 
@@ -13,7 +13,7 @@ The router query engine is a fundamental building block for agentic RAG systems.
 - **LlamaIndex Integration:** Leverages LlamaIndex abstractions for streamlined tool calling and parameter inference.
 - **Metadata Filtering:**  Uses metadata (e.g., page labels) to enhance the precision of vector-based search results.
 
-### 2. LLM Tool Calling: Extending Agent Capabilities
+### 2. [LLM Tool Calling](https://github.com/xandie985/ai-buffet/blob/main/LLM%20Notebooks/Agentic%20RAG%20LLamaIndex/2.%20Tool%20Calling.ipynb): Extending Agent Capabilities
 
 Tool calling empowers LLMs to pick and execute specific functions with inferred arguments, making them more interactive and capable of solving complex tasks.
 
@@ -23,7 +23,7 @@ Tool calling empowers LLMs to pick and execute specific functions with inferred 
 - **Argument Inference:** LLMs automatically infer the necessary arguments for the chosen functions.
 - **LlamaIndex Abstractions:**  Simplify tool interface creation and parameter inference.
 
-### 3. Building an Agent Reasoning Loop: Multi-Step Interaction
+### 3. [Building an Agent Reasoning Loop](https://github.com/xandie985/ai-buffet/blob/main/LLM%20Notebooks/Agentic%20RAG%20LLamaIndex/3.%20Agent%20Reasoning%20Loop.ipynb): Multi-Step Interaction
 
 The agent reasoning loop enables the LLM to reason over multiple steps, leveraging various tools and maintaining conversation history to answer complex or ambiguous questions.
 
@@ -36,9 +36,9 @@ The agent reasoning loop enables the LLM to reason over multiple steps, leveragi
 - **Utils.py:**  Streamlines the process of defining and loading tools.
 - **Conversation History & Memory:** Retains context for better response generation.
 
-### 4. Multi-Document Agent: Scaling and Efficiency
+### 4. [Multi-Document Agent](https://github.com/xandie985/ai-buffet/blob/main/LLM%20Notebooks/Agentic%20RAG%20LLamaIndex/4.%20Multi-Document%20Agent.ipynb): Scaling and Efficiency
 
-This section focuses on extending the agent to handle multiple documents while addressing the challenges of scaling and LLM context limitations.
+This notebook focuses on extending the agent to handle multiple documents while addressing the challenges of scaling and LLM context limitations.
 
 **Key Points:**
 
