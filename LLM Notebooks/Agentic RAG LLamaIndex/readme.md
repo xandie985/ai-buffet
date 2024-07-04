@@ -1,4 +1,4 @@
-## LLM Agents with LlamaIndex
+## Mastering LLM Agents with LlamaIndex
 
 This project explores the advanced capabilities of Large Language Models (LLMs) within Retrieval Augmented Generation (RAG) pipelines, focusing on agent-based reasoning and tool utilization.
 
